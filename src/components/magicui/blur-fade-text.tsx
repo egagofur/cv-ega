@@ -79,7 +79,7 @@ const BlurFadeText = ({
             }}
             className={cn("inline-block", className)}
           >
-            <div className="flex gap-2">
+            <div className="flex gap-1 md:gap-2">
               {text}
               <Image
                 src="/verified.svg"
@@ -88,7 +88,7 @@ const BlurFadeText = ({
                 quality={100}
                 width={64}
                 height={64}
-                className="size-7 self-center"
+                className="size-5 md:size-7 self-center"
               />
             </div>
           </motion.span>
