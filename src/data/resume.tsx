@@ -33,7 +33,7 @@ export const DATA = {
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
     {
-      href: "#projects",
+      href: "/#projects",
       icon: CodeIcon,
       label: "Projects",
     },
