@@ -2,7 +2,7 @@ import { Icons } from "@/components/icons";
 import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
 
 export const DATA = {
-  name: "Ega Gofur Triwahana",
+  name: "Ega Gofur",
   initials: "EGA GOFUR",
   url: "https:/cv-egagofur.vercel.app",
   location: "Malang, Indonesia",

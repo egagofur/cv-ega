@@ -22,10 +22,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${DATA.name}`,
     description: DATA.description,
+    images: [
+      {
+        url: new URL("/banner.png", DATA.url).toString(),
+        alt: `${DATA.name} - ${DATA.description}`,
+      },
+    ],
     url: DATA.url,
     siteName: "ega gofur",
     locale: "en_US",
     type: "website",
+    countryName: "Indonesia",
   },
   robots: {
     index: true,
@@ -65,6 +72,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta property="og:image" content="/" />
+        <meta property="og:image:width" content="600" />
+        <meta property="og:image:height" content="336" />
+        <meta
+          property="og:image:alt"
+          content={`Image with ${DATA.name} and ${DATA.description}`}
+        />
+        <meta property="og:image:type" content="/banner-whatsapp" />
+      </head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
