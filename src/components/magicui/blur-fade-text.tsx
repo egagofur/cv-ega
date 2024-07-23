@@ -84,7 +84,7 @@ const BlurFadeText = ({
               <Image
                 src="/verified.svg"
                 alt="Verified"
-                loading="eager"
+                loading="lazy"
                 quality={100}
                 width={64}
                 height={64}

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description: DATA.description,
     images: [
       {
-        url: new URL("/banner.png", DATA.url).toString(),
+        url: "/banner.png",
         alt: `${DATA.name} - ${DATA.description}`,
       },
     ],

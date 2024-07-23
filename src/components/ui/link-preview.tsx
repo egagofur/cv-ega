@@ -85,6 +85,7 @@ export const LinkPreview = ({
             src={src}
             width={width}
             height={height}
+            loading="eager"
             quality={quality}
             layout={layout}
             priority={true}
