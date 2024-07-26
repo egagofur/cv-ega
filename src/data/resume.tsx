@@ -4,6 +4,7 @@ import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
 export const DATA = {
   name: "Ega Gofur",
   initials: "EGA GOFUR",
+  portfolioUrl: "https://egagofur.me",
   url: "https:/cv-egagofur.vercel.app",
   location: "Malang, Indonesia",
   locationLink: "https://www.google.com/maps/place/Malang",

@@ -34,10 +34,12 @@ export default function Page() {
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-28 border">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
-                <AvatarFallback>{DATA.initials}</AvatarFallback>
-              </Avatar>
+              <Link href={DATA.portfolioUrl} target="_blank">
+                <Avatar className="size-28 border">
+                  <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+                  <AvatarFallback>{DATA.initials}</AvatarFallback>
+                </Avatar>
+              </Link>
             </BlurFade>
           </div>
         </div>
@@ -177,7 +179,7 @@ export default function Page() {
           </div>
           <div className="z-10 flex min-h-[2rem] items-center justify-center">
             <BlurFade delay={BLUR_FADE_DELAY * 12 * 50 * 0.05}>
-              <Link target="_blank" href="https://egagofur.my.id/projects">
+              <Link target="_blank" href={DATA.portfolioUrl}>
                 <ShimmerButton className="shadow-2xl">
                   <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
                     See More Projects ?
