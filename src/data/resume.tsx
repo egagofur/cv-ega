@@ -5,13 +5,13 @@ export const DATA = {
   name: "Ega Gofur",
   initials: "EGA GOFUR",
   portfolioUrl: "https://egagofur.me",
-  url: "https:/cv-egagofur.vercel.app",
+  url: "https://cv-egagofur.vercel.app",
   location: "Malang, Indonesia",
   locationLink: "https://www.google.com/maps/place/Malang",
   description:
-    "Software Engineer. I love building things and helping people. Very active on Tiktok.",
+    "Fullstack Engineer passionate about building scalable, high-performance web applications. Enthusiastic about solving complex problems and delivering user-centric solutions. Actively mentoring and leading in developer communities.",
   summary:
-    "In early 2024, I began my career as a software engineer at [DOT Indonesia](https://dot.co.id). Prior to that, I had graduated from [Vocational High School with a focus in software engineering](https://smkn1kepanjen.sch.id/) and completed an [internship at a large technology company in Malang, Indonesia](https://www.linkedin.com/posts/egagofur_keepingahead-dotindonesia-intern-activity-7054005843763023872-8geM?utm_source=share&utm_medium=member_desktop).  I'm also proud to be the [founder of Kopico](https://kopico.vercel.app), the first online coding community with over 800 members.",
+    "Starting my career as a Fullstack Engineer at [DOT Indonesia](https://dot.co.id) in early 2024, I bring a solid foundation in fullstack development. I hold a degree in Software Engineering from [SMK Negeri 1 Kepanjen](https://smkn1kepanjen.sch.id) and have gained valuable experience through internships and freelance work. I also founded [Kopico](https://kopico.vercel.app), an online coding community with over 800 active members.",
   avatarUrl: "/me.png",
   skills: [
     "NestJS",
@@ -52,14 +52,12 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/egagofur",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/egagofur/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       email: {
@@ -70,19 +68,30 @@ export const DATA = {
       },
     },
   },
-
   work: [
+    {
+      company: "Semudahitu.id",
+      badges: ["freelance", "remote"],
+      href: "https://semudahitu.id/",
+      location: "Remote",
+      title: "Fullstack Engineer",
+      logoUrl: "/semudah-itu.png",
+      start: "October 2024",
+      end: "Present",
+      description:
+        "Currently working on a HRIS system for Semudahitu.id, utilizing NestJS and Next.js. I contribute to both front-end and back-end development, ensuring high-quality code and a seamless user experience.",
+    },
     {
       company: "CodeSpace Indonesia",
       badges: ["freelance", "remote"],
       href: "https://codespace.id/",
       location: "Remote",
-      title: "Fullstack Laravel",
+      title: "Fullstack Laravel Developer",
       logoUrl: "/code-space.png",
       start: "July 2024",
-      end: "Present",
+      end: "August 2024",
       description:
-        "In my spare time, I freelance as a fullstack developer at CodeSpace Indonesia, currently working on a TOEFL test website built with Laravel Filament. I leverage my full-stack development expertise to handle both front-end and back-end aspects of the project, with a strong focus on delivering high-quality code and user-friendly web applications.",
+        "Developed a TOEFL test platform using Laravel Filament. Focused on fullstack development, delivering a user-friendly interface and ensuring smooth functionality across the system.",
     },
     {
       company: "DOT Indonesia",
@@ -94,7 +103,7 @@ export const DATA = {
       start: "January 2024",
       end: "Present",
       description:
-        "Currently, I have transitioned into the role of a Full Stack Engineer at DOT Indonesia, where my responsibilities span both front-end and back-end development. I excel at solving complex problems, delivering high-quality code, and creating user-friendly web applications. I remain dedicated to staying updated on the latest industry trends and cutting-edge technologies.",
+        "As a Fullstack Engineer at DOT Indonesia, I work on both front-end and back-end projects, solving complex problems and delivering scalable web solutions. My focus is on creating efficient, user-centric applications using modern web technologies.",
     },
   ],
   education: [
@@ -109,12 +118,12 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "MIND ID - Portal Recruitment",
+      title: "MIND ID - Recruitment Portal",
       href: "https://career.mind.id",
       dates: "Jul 2024 - Present",
       active: true,
       description:
-        "MIND ID Portal Recruitment is a system that is used to manage all recruitment processes in the MIND ID Holding company. on this project I was creating a feature and maintenance.",
+        "Developed and maintained the MIND ID Recruitment Portal, a system used to manage the recruitment process within MIND ID Holding. Responsible for implementing new features and maintaining existing ones.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -136,18 +145,18 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Kalla Property Management.",
+      title: "Kalla Property Management",
       href: "https://kalla.co.id",
       dates: "Feb 2024 - Jun 2024",
       active: true,
       description:
-        "Kalla Property Management is a property management system that is used to manage all properties owned by the Kalla Group. on this project I was responsible for the front-end and back-end.",
+        "Led the development of the Kalla Property Management System, managing both the front-end and back-end components of the project.",
       technologies: [
         "Nest.js",
         "Inertia.js",
         "React",
         "Typescript",
-        "Mysql",
+        "MySQL",
         "TypeORM",
         "Ant Design",
         "WebHook",
@@ -163,12 +172,12 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Open Data DPR RI.",
+      title: "Open Data DPR RI",
       href: "https://data.dpr.go.id",
       dates: "Sep 2023 - Jan 2024",
       active: true,
       description:
-        "Develop a website that provides data for research needs analysis, even your machine learning model. This project is a collaboration with the Indonesian House of Representatives.",
+        "Developed a website for the Indonesian House of Representatives to provide open data for research and machine learning model analysis.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -187,12 +196,12 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Pama Tax System.",
+      title: "Pama Tax System",
       href: "https://pamapersada.com/",
       dates: "Jan 2023 - Jun 2024",
       active: true,
       description:
-        "Developed an ERP System for Pama Persada, a company engaged in the mining sector, ERP Module tax system. This project is a collaboration with PT. Pama Persada.",
+        "Developed a tax module for Pama Persada’s ERP system, focusing on seamless integration and user-friendly design.",
       technologies: ["React", "Typescript", "Ant Design", "Asp.Net Core"],
       links: [
         {
@@ -211,7 +220,7 @@ export const DATA = {
       dates: "November 23rd - 25th, 2018",
       location: "London, Ontario",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+        "Developed a mobile application using augmented reality to deliver bedtime stories to children.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
